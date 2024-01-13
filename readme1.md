@@ -1,45 +1,23 @@
 # RBI Guide Bot: Innovate to Educate
 
-## Overview
+# How to use 
 
-Welcome to RBI Guide Bot, a chatbot designed to provide user assistance in understanding RBI guidelines. This project is part of the "Innovate to Educate" hackathon, where developers are challenged to create smart chatbots for effectively communicating RBI guidelines to users.
+1. Simple and structured query  you can refer below examples for the how to use
 
-## Features
+   1..What is the purpose of the RBI guidelines on Information Technology Governance?
+   Ans: The guidelines aim to establish a framework for regulated entities to manage IT-related risks and ensure robust information security practices.
 
-- **Secure User Authentication**: Users can create accounts or log in securely to access RBI Guide Bot.
-  
-- **Natural Language Processing (NLP)**: The chatbot utilizes NLP to comprehend and respond to user queries related to RBI guidelines.
+   2. *Question*: Can you explain the key elements of IT Service Management for regulated entities?
+   - *Chatbot Response*: Regulated entities are required to implement a robust IT Service Management Framework, including Service Level Management, security classification of information assets, and adherence to technology refresh plans.
 
-- **Instant Answers**: Seamlessly ask questions, and RBI Guide Bot will provide quick and accurate answers regarding RBI regulations.
+3. *Question*: How often should Disaster Recovery drills be conducted for critical information systems?
+   - *Chatbot Response*: DR drills for critical information systems should be conducted at least on a half-yearly basis, and any issues observed during the drill should be resolved before the next cycle.
 
-- **User-Friendly Interface**: The application offers an intuitive interface with sidebar navigation for easy access to various sections.
+4. *Question*: What is the role of the Chief Information Security Officer (CISO) according to the guidelines?
+   - *Chatbot Response*: The CISO is responsible for driving the cybersecurity strategy, ensuring compliance with regulatory instructions, managing the Security Operations Centre (SOC), and reporting cybersecurity risks to the Board.
 
-- **Customizable**: Easily customize the chatbot for specific RBI guideline FAQs.
+5. *Question*: Are there any specific requirements for data migration controls?
+   - *Chatbot Response*: Regulated entities are required to have a documented data migration policy ensuring data integrity, completeness, and consistency, with provisions for signoffs from business users and application owners.
 
-## Technologies Used
-
-- Python
-- Streamlit
-- Scikit-learn
-- SQLite
-- GitHub
-
-## Usage
-
-1. **Create an Account or Log In**: Begin by creating an account or logging in to access RBI Guide Bot.
-
-2. **Ask Questions**: Users can ask any questions related to RBI guidelines, and the chatbot will provide instant and accurate answers.
-
-3. **Navigate with Sidebar**: Utilize the sidebar for easy navigation between different sections of the app.
-
-## Contributions
-
-Contributions and enhancements to RBI Guide Bot are welcome! If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature: `git checkout -b feature-name`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin feature-name`.
-5. Open a pull request.
-
-
+6. *Question*: How often should Vulnerability Assessments and Penetration Testing (VA/PT) be conducted?
+   - *Chatbot Response*: For critical systems, VA should be conducted at least once every six months, and PT should be done at least once a year. A risk-based approach can be adopted for non-critical systems.
